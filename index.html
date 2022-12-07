@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="icon" href="assets/img/favicon.webp" sizes="16x16"> -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="SHORTCUT ICON" href="icon.jpg">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <title>Conversor de números</title>
+
+        <h1>Conversor de números</h1>
+</head>
+
+<body>
+    <div>
+        <textarea id="inputVal" cols="45" rows="15" placeholder="Coloque o Valor" style="height: 86px; width: 969px;"></textarea>
+        <br>
+        <p>Entrada do Tipo<span id="errorTag"></span></p>
+        <select id="inputType">
+            <option value="hex">Hexadecimal</option>
+            <option value="dec">Decimal</option>
+            <option value="bin">Binário</option>
+            
+            
+        </select>
+    </div>
+    <div>
+        <p>Saida do Tipo</p>
+        <select id="outputType">
+            <option value="dec">Decimal</option>
+            <option value="hex">Hexadecimal</option>
+            <option value="bin">Binário</option>
+            
+        </select>
+        <button id="convert">Converter</button>
+    </div>
+    <hr>
+    <textarea id="outputVal" cols="45" rows="15" placeholder="Resultado do Valor" style="height: 86px; width: 969px;"></textarea>
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
